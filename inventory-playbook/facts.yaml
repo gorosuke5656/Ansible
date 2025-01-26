@@ -1,0 +1,23 @@
+- hosts: all
+  gather_facts: no
+
+  tasks:
+    - block:
+      - name: Gather default facts
+        ios_facts:
+          gather_subset:
+          - all
+        register: ios_facts
+      - name: Print Cisco IOS facts
+        debug:
+          var: ios_facts
+      when: ansible_network_os == "cisco.ios.ios"
+
+    - block:
+      - name: Gather default facts
+        junos_facts:
+        register: junos_facts
+      - name: Print Junos facts
+        debug:
+          var: junos_facts
+      when: ansible_network_os == "junipernetworks.junos.junos"

@@ -1,0 +1,23 @@
+[all:vars]
+ansible_user=admin
+ansible_password=root123
+ansible_python_interpreter=auto_silent
+
+[junos]
+vsrx ansible_host=192.168.150.101
+
+[junos:vars]
+ansible_connection=ansible.netcommon.netconf
+ansible_network_os=junipernetworks.junos.junos
+
+[cisco]
+csr1kv-3 ansible_host=192.168.150.102
+
+[cisco:vars]
+ansible_become=yes
+ansible_become_method=enable
+ansible_become_password=admin
+ansible_connection=ansible.netcommon.network_cli
+ansible_network_os=cisco.ios.ios
+
+
