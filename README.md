@@ -3,11 +3,11 @@
 
 
  参考サイト<cr>
- Ansible / network automation / 学習メモ　てくなべさん<cr>
-　　　https://tekunabe.hatenablog.jp/<cr>
- Ansibleを使ったCisco機器への接続・設定変更<cr>
+ Ansible / network automation / 学習メモ　てくなべさん <cr>
+　　　https://tekunabe.hatenablog.jp/ <cr>
+ Ansibleを使ったCisco機器への接続・設定変更 <cr>
     　https://qiita.com/rat-engineer755/items/7b4d07b8759a745d7404<cr>
- Ansibleでネットワーク機器の設定を取得する<cr>
+ Ansibleでネットワーク機器の設定を取得する <cr>
 　　　https://tech.synapse.jp/entry/2023/02/01/110000<cr>
  Ansible　ネットワーク自動化<cr>
 　　　https://zenn.dev/y_mrok/books/ansible-networrk-no-jidoka<cr>
