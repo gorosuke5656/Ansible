@@ -3,7 +3,8 @@
 
 
  参考サイト<cr>
- Ansible / network automation / 学習メモ　てくなべさん <cr>
+ Ansible / network automation / 学習メモ　てくなべさん <CR>
+
 　　　https://tekunabe.hatenablog.jp/ <cr>
  Ansibleを使ったCisco機器への接続・設定変更 <cr>
     　https://qiita.com/rat-engineer755/items/7b4d07b8759a745d7404<cr>
